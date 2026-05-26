@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20260320022403OUWDWI">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diodos | Aprendiendo Electrónica</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><script src="../libs/exe_effects/exe_effects.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
+<script src="../idevices/text/text.js"> </script><script src="../idevices/casestudy/casestudy.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node no-ch">¡Bienvenidos a la Multimedia de Electrónica Básica!</a>
+</li>
+<li class="current-page-parent"> <a href="../html/contenidos-a-integrar.html" class="daddy">Contenidos a Integrar</a><ul> <li> <a href="../html/hilos-y-cable.html" class="no-ch">Hilos y cable</a>
+</li>
+<li> <a href="../html/resistores.html" class="no-ch">Resistores</a>
+</li>
+<li> <a href="../html/condensadores.html" class="no-ch">Condensadores</a>
+</li>
+<li> <a href="../html/inductores.html" class="no-ch">Inductores</a>
+</li>
+<li class="active"> <a href="../html/diodos.html" class="active no-ch">Diodos</a>
+</li>
+<li> <a href="../html/transistores.html" class="no-ch">Transistores</a>
+</li>
+<li> <a href="../html/rele.html" class="no-ch">Relé</a>
+</li>
+<li> <a href="../html/transformadores.html" class="no-ch">Transformadores</a>
+</li>
+<li> <a href="../html/circuitos-integrados.html" class="no-ch">Circuitos Integrados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/simulador.html" class="no-ch">simulador</a>
+</li>
+</ul></nav><main id="20260320022403OUWDWI" class="page"> <header id="header-20260320022403OUWDWI" class="main-header"> <div class="package-header"><h1 class="package-title">Aprendiendo Electrónica</h1></div>
+<div class="page-header"><h2 class="page-title">Diodos</h2></div></header><div id="page-content-20260320022403OUWDWI" class="page-content"> <article id="202605241435123682LI" class="box"> <header class="box-head no-icon"> <h1 class="box-title">&lt;div&gt;El Diodo de Unión PN&lt;/div&gt;</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260524143512356I2C" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><p style="text-align: justify;">El diodo semiconductor representa el dispositivo más elemental y crítico en la arquitectura de los circuitos electrónicos modernos, siendo un componente de dos terminales con un comportamiento intrínsecamente no lineal. Su estructura se fundamenta en la unión de dos materiales semiconductores extrínsecos, uno de tipo P y otro de tipo N, lo que genera una interfase conocida como unión PN. La propiedad definitoria del diodo es su capacidad de permitir el flujo de corriente eléctrica en una sola dirección predominante mientras actúa como un bloqueador efectivo en el sentido opuesto.</p>
+<p style="text-align: justify;">Para comprender este fenómeno desde una perspectiva sistémica, se puede emplear la analogía funcional de una válvula hidráulica de retención (check valve): al igual que esta válvula permite el paso de fluido solo cuando se aplica presión en el sentido correcto y se cierra herméticamente ante cualquier intento de flujo inverso, el diodo actúa como un "regulador de sentido único" para los portadores de carga eléctrica. Físicamente, el dispositivo consta de dos electrodos específicos: el Ánodo, correspondiente a la región dopada de tipo P (polo positivo para la conducción), y el Cátodo, vinculado a la región de tipo N (polo negativo). El dominio de estos conceptos es esencial para el estudio de aplicaciones avanzadas que van desde la protección de circuitos hasta la rectificación de potencia.</p>
+<p style="text-align: justify;">La versatilidad de la unión PN permite la existencia de diversos tipos de diodos optimizados para funciones específicas dentro de un sistema electrónico:</p>
+<div class="exe-fx exe-tabs">
+<h2>Diodo Rectificador</h2>
+<p style="text-align: justify;">Es el dispositivo más elemental de la familia, diseñado para permitir el paso de la corriente en un solo sentido y bloquearla en el opuesto. Su aplicación principal es la rectificación, proceso mediante el cual se convierte la corriente alterna (CA) en corriente continua (CC) pulsante. En fuentes de alimentación, estos diodos eliminan los semiciclos de polaridad opuesta de la señal de entrada, permitiendo que la carga reciba una señal monopolar.</p>
+<p><img src="../content/resources/20260524143512356I2C/OIP.webp" width="474" height="266" alt="" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<h2 style="text-align: justify;">Diodo Zener</h2>
+<p style="text-align: justify;">A diferencia de los diodos convencionales, el Zener está diseñado para operar de forma controlada en la región de ruptura inversa. Su propiedad fundamental es mantener una tensión constante (V_Z) entre sus terminales, incluso ante variaciones significativas de la corriente inversa. Debido a esto, se utiliza primordialmente como regulador de voltaje y estabilizador de tensión en las etapas de salida de las fuentes de alimentación.</p>
+<p style="text-align: center;"><img src="../content/resources/20260524143512356I2C/diodo_zener1.png" width="368" height="401" alt=""></p>
+<h2 style="text-align: justify;">Diodo LED (Diodo Emisor de Luz)</h2>
+<p>Es un tipo especial de diodo que, al ser polarizado en sentido directo, emite energía en forma de fotones a través de un proceso llamado electroluminiscencia. El color de la luz emitida depende del material semiconductor (como arseniuro de galio o fosfuro de galio) y de la energía liberada durante la recombinación de electrones y huecos en la unión. Requieren obligatoriamente una resistencia en serie para limitar la intensidad de corriente y evitar su destrucción térmica.</p>
+<p style="text-align: center;"><img src="../content/resources/20260524143512356I2C/led.png" width="362" height="362" alt=""></p>
+<h2>Diodo Pin</h2>
+<p style="text-align: justify;">Es un diodo semiconductor con una capa intrínseca entre las regiones P y N, utilizado en aplicaciones de alta frecuencia, fotodetección y control de potencia.<br><strong></strong></p>
+<p style="text-align: justify;"><strong>Estructura y Principio de Funcionamiento</strong><br>El diodo PIN se compone de tres capas: una región tipo P, una región intrínseca (I) no dopada y una región tipo N. La capa intrínseca actúa como aislante y aumenta la distancia entre las regiones P y N, lo que le confiere propiedades especiales frente a un diodo PN convencional. En polarización directa, la corriente fluye a través del diodo, mientras que en polarización inversa presenta alta impedancia, lo que lo hace útil para manejar señales de alta frecuencia y potencia. &nbsp;<br>&nbsp;</p>
+<p style="text-align: justify;">Está diseñado principalmente para aplicaciones de radiofrecuencia (RF) y microondas. Su nombre proviene de su estructura (capas P-Intrínseca-N). Funciona como una resistencia variable controlada por corriente; cuando se le aplica una corriente directa, su resistencia disminuye, permitiendo su uso como interruptor o atenuador en circuitos de alta frecuencia.</p>
+<p style="text-align: center;">&nbsp; <img src="../content/resources/20260524143512356I2C/pin_1.png" width="412" height="325" alt=""></p>
+</div>
+<p style="text-align: justify;"><br></p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20260525022704283Z8F" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Caso práctico</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202605250227042743QD" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data='{"id":"202605250227042743QD","typeGame":"Case study","history":"&lt;p style=\"text-align: justify;\"&gt;Un técnico de mantenimiento se encuentra reparando un circuito simple de corriente continua que alimenta un motor pequeño. Al sustituir un componente dañado, conecta accidentalmente un diodo rectificador en serie con el motor, pero lo instala con polarización inversa (el cátodo hacia el polo positivo de la fuente).&lt;/p&gt;","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","activities":[{"activity":"&lt;p style=\"text-align: justify;\"&gt;¿Qué sucederá con el funcionamiento del motor al cerrar el interruptor del circuito y cuál es la razón física de este comportamiento?&lt;/p&gt;","feedback":"&lt;p style=\"text-align: justify;\"&gt;El motor no funcionará (permanecerá en estado de reposo). Al polarizar el diodo en inversa, el terminal negativo de la fuente atrae a los huecos en la región P y el terminal positivo atrae a los electrones en la región N, provocando que los portadores de carga se alejen de la unión. Este fenómeno genera un ensanchamiento drástico de la región de empobrecimiento, lo que aumenta la resistencia interna del dispositivo a un valor casi infinito, actuando efectivamente como un interruptor abierto que bloquea el paso de la corriente.&lt;/p&gt;\n&lt;p style=\"text-align: justify;\"&gt;El motor solo llegaría a recibir corriente si el voltaje de la fuente superara la tensión de ruptura del diodo, momento en el cual ocurriría un efecto de avalancha que permitiría la conducción súbita, pero este evento generalmente conlleva la destrucción térmica permanente del componente semiconductor.&lt;/p&gt;","buttonCaption":"Mostrar Respuesta"}]}' data-idevice-template='&lt;div class="exe-casestudy-container"&gt;{content}&lt;/div&gt;'><div class="exe-casestudy-container">
+        <div class="caseStudyContent">            
+            <div class="CSP-Info mb-3">
+                
+            <dl>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+            </dl>
+            </div>
+            <div class="CSP-History mb-3" >
+                <p style="text-align: justify;">Un técnico de mantenimiento se encuentra reparando un circuito simple de corriente continua que alimenta un motor pequeño. Al sustituir un componente dañado, conecta accidentalmente un diodo rectificador en serie con el motor, pero lo instala con polarización inversa (el cátodo hacia el polo positivo de la fuente).</p>
+            </div>
+            <div class="CSP-Activities mb-3">
+                
+                <div class="CSP-ActivityDiv ">
+                    <div class="CSP-Activity mb-3">
+                        <p style="text-align: justify;">¿Qué sucederá con el funcionamiento del motor al cerrar el interruptor del circuito y cuál es la razón física de este comportamiento?</p>
+                    </div>
+                    
+                    <div class="iDevice_buttons feedback-button">
+                        <button type="button" class="CSP-FeedbackBtn feedbacktooglebutton">
+                            Mostrar Respuesta
+                        </button>
+                    </div>
+                    <div class="CSP-FeedbackText" style="display: none;">
+                        <p style="text-align: justify;">El motor no funcionará (permanecerá en estado de reposo). Al polarizar el diodo en inversa, el terminal negativo de la fuente atrae a los huecos en la región P y el terminal positivo atrae a los electrones en la región N, provocando que los portadores de carga se alejen de la unión. Este fenómeno genera un ensanchamiento drástico de la región de empobrecimiento, lo que aumenta la resistencia interna del dispositivo a un valor casi infinito, actuando efectivamente como un interruptor abierto que bloquea el paso de la corriente.</p>
+<p style="text-align: justify;">El motor solo llegaría a recibir corriente si el voltaje de la fuente superara la tensión de ruptura del diodo, momento en el cual ocurriría un efecto de avalancha que permitiría la conducción súbita, pero este evento generalmente conlleva la destrucción térmica permanente del componente semiconductor.</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div></div>
+</div></article><article id="20260525090225793DYL" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Videos prácticos</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260525090225787WC3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div class="exe-fx exe-carousel">
+<h2>Como encender un led</h2>
+<p style="text-align: center;"><iframe width="100%" height="480" src="https://drive.google.com/file/d/1EgYDOCeKnpun9nYPefecc9F6yj_bMM48/preview" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>Encender un led con panel solar</h2>
+<p style="text-align: center;"><iframe width="100%" height="480" src="https://drive.google.com/file/d/1x-9nITX8zBuWaqYg6qWeX1859oN06pzA/preview" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2 style="text-align: justify;">Circuito paralelo con leds</h2>
+<p style="text-align: center;"><iframe width="100%" height="480" src="https://drive.google.com/file/d/1q_lIGFa2vA_-Icv1AivX5oIU5Ib_zPeg/preview" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/inductores.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/transistores.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense"> <p> <span class="license-label">Licencia: </span><span class="license">None</span></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20260320022403CIKMXJ">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transformadores | Aprendiendo Electrónica</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><script src="../libs/exe_effects/exe_effects.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../libs/exe_effects/exe_effects.css">
+<script src="../idevices/text/text.js"> </script><script src="../idevices/external-website/external-website.js"> </script><script src="../idevices/casestudy/casestudy.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../idevices/external-website/external-website.css">
+<link rel="stylesheet" href="../idevices/casestudy/casestudy.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node no-ch">¡Bienvenidos a la Multimedia de Electrónica Básica!</a>
+</li>
+<li class="current-page-parent"> <a href="../html/contenidos-a-integrar.html" class="daddy">Contenidos a Integrar</a><ul> <li> <a href="../html/hilos-y-cable.html" class="no-ch">Hilos y cable</a>
+</li>
+<li> <a href="../html/resistores.html" class="no-ch">Resistores</a>
+</li>
+<li> <a href="../html/condensadores.html" class="no-ch">Condensadores</a>
+</li>
+<li> <a href="../html/inductores.html" class="no-ch">Inductores</a>
+</li>
+<li> <a href="../html/diodos.html" class="no-ch">Diodos</a>
+</li>
+<li> <a href="../html/transistores.html" class="no-ch">Transistores</a>
+</li>
+<li> <a href="../html/rele.html" class="no-ch">Relé</a>
+</li>
+<li class="active"> <a href="../html/transformadores.html" class="active no-ch">Transformadores</a>
+</li>
+<li> <a href="../html/circuitos-integrados.html" class="no-ch">Circuitos Integrados</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/simulador.html" class="no-ch">simulador</a>
+</li>
+</ul></nav><main id="20260320022403CIKMXJ" class="page"> <header id="header-20260320022403CIKMXJ" class="main-header"> <div class="package-header"><h1 class="package-title">Aprendiendo Electrónica</h1></div>
+<div class="page-header"><h2 class="page-title">Transformadores</h2></div></header><div id="page-content-20260320022403CIKMXJ" class="page-content"> <article id="202605242313012443XQ" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Teoría y Dinámica de los Transformadores</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260524231301239XZN" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><p style="text-align: justify;">El transformador es una máquina eléctrica estática diseñada para transferir potencia de un circuito a otro con una frecuencia constante, permitiendo variar las magnitudes de voltaje y corriente. Su arquitectura fundamental consta de tres elementos críticos: el Devanado Primario, el Devanado Secundario y el Núcleo Magnético.</p>
+<p style="text-align: justify;">Su funcionamiento se rige por la Ley de Inducción de Faraday: cuando una corriente circula por el devanado primario, se genera un Flujo Magnético variable que es canalizado y concentrado por el núcleo (usualmente de chapas laminadas de acero al silicio para reducir pérdidas). Este flujo variable "corta" las espiras del devanado secundario, induciendo en él una fuerza electromotriz (voltaje) proporcional al número de vueltas.</p>
+<p style="text-align: justify;">Es imperativo subrayar que los transformadores solo funcionan con Corriente Alterna (CA). Esto se debe a que la inducción requiere un flujo magnético en constante cambio; una Corriente Continua (CC) produciría un flujo estático que no induciría voltaje en el secundario y, debido a la baja resistencia óhmica de los hilos, provocaría el sobrecalentamiento y la destrucción del componente (el dispositivo se quema).</p>
+<p style="text-align: justify;">La versatilidad de la relación de vueltas (a = N_p / N_s) permite clasificar a los transformadores según su función específica en el circuito:</p>
+<div class="exe-fx exe-carousel">
+<h2 style="text-align: justify;">Transformadores Reductores</h2>
+<p style="text-align: justify;">Poseen un número de espiras en el secundario menor al del primario (N_s &lt; N_p). Se utilizan para disminuir los altos voltajes de la red eléctrica (ej. 220V o 110V) a niveles bajos y seguros (6V, 12V, 24V) requeridos por la mayoría de los equipos electrónicos.</p>
+<p style="text-align: center;"><img src="../content/resources/20260524231301239XZN/reductor.png" width="534" height="291" alt=""></p>
+<h2 style="text-align: justify;">Transformadores Elevadores</h2>
+<p style="text-align: justify;">Tienen más vueltas en el secundario que en el primario (N_s &gt; N_p). Son esenciales en la transmisión de energía a largas distancias para elevar el voltaje y reducir las pérdidas por corriente, así como en equipos especiales como tubos de rayos catódicos o sistemas de ignición.</p>
+<p style="text-align: center;"><img src="../content/resources/20260524231301239XZN/elevador.png" width="548" height="299" alt=""></p>
+<h2 style="text-align: justify;">Transformadores de Aislamiento</h2>
+<p style="text-align: justify;">Presentan una relación de transformación 1:1, lo que significa que el voltaje de entrada es idéntico al de salida. Su función primordial no es cambiar el voltaje, sino proporcionar aislamiento galvánico, separando físicamente el circuito de carga de la red para proteger a los usuarios y equipos sensibles contra choques eléctricos.</p>
+<p style="text-align: center;"><img src="../content/resources/20260524231301239XZN/Transformador_aislamiento.png" width="550" height="300" alt=""></p>
+</div>
+<p style="text-align: justify;"><br></p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20260525105820960GNS" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Diferencia de Núcleo</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260525105820937LHO" class="idevice_node external-website" data-idevice-path="../idevices/external-website/" data-idevice-type="external-website">      <div id="iframeWebsiteIdevice">       <iframe src="https://ntzblanco-dot.github.io/recursos-tesis/nucleo_transformador" size="4" width="600" height="800" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      </div>
+<div id="20260525110028822HIT" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><p><strong>Explicacion del Diagrama Comparativo</strong><br>Visualizacion de Ambos Nucleos:<br><strong>IZQUIERDA - Nucleo Acorazado (Tipo E-I):</strong></p>
+<p>Representacion 3D isometrica de la clasica construccion E + I<br>Devanado visible sobre el brazo central<br>Lineas de flujo AMARILLAS: Muestran el camino principal dentro del nucleo<br>Lineas ROJAS discontinuas: Muestran las fugas magneticas en:Los entrehierros (union E-I)<br>Los extremos abiertos del nucleo<br>Zonas de dispersion alrededor del devanado<br>&nbsp;<br><strong>DERECHA - Nucleo Toroidal:</strong></p>
+<p>Representacion 3D del anillo continuo<br>Devanado distribuido uniformemente alrededor del nucleo<br>Linea de flujo AMARILLA circular: Confinada perfectamente dentro del material<br>Linea ROJA tenue (~15% opacidad): Las minimas fugas (practicamente despreciables)<br>&nbsp;<br>Indicadores Clave:<br>Aspecto<br>Acorazado<br>Toroidal<br>Barra de eficiencia<br>72% (naranja)<br>98% (verde)<br>Fugas visibles<br>4 zonas marcadas<br>Practicamente ninguna<br>Color de evaluacion<br>Medio/Bajo<br>Excelente</p>
+<p>Interacciones:<br>Toggle "Mostrar Lineas de Flujo": Activa/desactiva todas las visualizaciones de campo magnetico<br>Hover sobre cada nucleo: Muestra preview de las lineas incluso cuando estan ocultas<br>Tabla comparativa completa: 9 parametros tecnicos lado a lado<br>&nbsp;<br>Concepto Central Demostrado:<br>La geometria continua del toroidal elimina los entrehierros que obligan al flujo a "saltar" de aire a hierro. En el nucleo E-I, cada union crea una zona de alta reluctancia donde parte del campo escapa. El toroidal, al ser una pieza unica sin interrupciones, mantiene el flujo "prisionero" dentro del material ferromagnetico con eficiencia superior al 95%.<br>&nbsp;<br>&nbsp;</p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="202605250035473550B7" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Caso práctico</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260525003547351E9X" class="idevice_node casestudy" data-idevice-path="../idevices/casestudy/" data-idevice-type="casestudy" data-idevice-component-type="json" data-idevice-json-data='{"id":"20260525003547351E9X","typeGame":"Case study","history":"&lt;p style=\"text-align: justify;\"&gt;El Escenario: Un técnico de laboratorio debe diseñar una fuente de alimentación lineal básica. Para ello, necesita reducir el voltaje de la red doméstica (220V CA) a un nivel de 12V CA antes de pasar a la etapa de rectificación. Dispone de varios núcleos y carretes de alambre para construir el componente.&lt;/p&gt;","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","activities":[{"activity":"&lt;p&gt;¿Qué tipo de transformador (según la relación de voltaje) debe construir el técnico?&lt;/p&gt;","feedback":"&lt;p style=\"text-align: justify;\"&gt;El técnico necesita un Transformador Reductor, ya que su objetivo es disminuir la amplitud de la señal de entrada.&lt;/p&gt;","buttonCaption":"Mostrar Respuesta"},{"activity":"&lt;p style=\"text-align: justify;\"&gt;Para lograr que el voltaje de salida sea menor al de entrada, ¿cuál de los dos devanados (primario o secundario) debe tener un mayor número de vueltas (espiras)?&lt;/p&gt;","feedback":"&lt;p style=\"text-align: justify;\"&gt;El Devanado Primario debe tener un mayor número de espiras. Según la \"relación de transformación\", el voltaje es directamente proporcional al número de vueltas (V_p / V_s = N_p / N_s). Por lo tanto, para reducir 220V a 12V, el primario requiere aproximadamente 18.3 veces más vueltas que el secundario para mantener la proporción física del campo inducido.&lt;/p&gt;","buttonCaption":"Mostrar respuesta"}]}' data-idevice-template='&lt;div class="exe-casestudy-container"&gt;{content}&lt;/div&gt;'><div class="exe-casestudy-container">
+        <div class="caseStudyContent">            
+            <div class="CSP-Info mb-3">
+                
+            <dl>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+            </dl>
+            </div>
+            <div class="CSP-History mb-3" >
+                <p style="text-align: justify;">El Escenario: Un técnico de laboratorio debe diseñar una fuente de alimentación lineal básica. Para ello, necesita reducir el voltaje de la red doméstica (220V CA) a un nivel de 12V CA antes de pasar a la etapa de rectificación. Dispone de varios núcleos y carretes de alambre para construir el componente.</p>
+            </div>
+            <div class="CSP-Activities mb-3">
+                
+                <div class="CSP-ActivityDiv ">
+                    <div class="CSP-Activity mb-3">
+                        <p>¿Qué tipo de transformador (según la relación de voltaje) debe construir el técnico?</p>
+                    </div>
+                    
+                    <div class="iDevice_buttons feedback-button">
+                        <button type="button" class="CSP-FeedbackBtn feedbacktooglebutton">
+                            Mostrar Respuesta
+                        </button>
+                    </div>
+                    <div class="CSP-FeedbackText" style="display: none;">
+                        <p style="text-align: justify;">El técnico necesita un Transformador Reductor, ya que su objetivo es disminuir la amplitud de la señal de entrada.</p>
+                    </div>
+                </div>
+            
+                <div class="CSP-ActivityDiv CSP-ActivityDivBlack">
+                    <div class="CSP-Activity mb-3">
+                        <p style="text-align: justify;">Para lograr que el voltaje de salida sea menor al de entrada, ¿cuál de los dos devanados (primario o secundario) debe tener un mayor número de vueltas (espiras)?</p>
+                    </div>
+                    
+                    <div class="iDevice_buttons feedback-button">
+                        <button type="button" class="CSP-FeedbackBtn feedbacktooglebutton">
+                            Mostrar respuesta
+                        </button>
+                    </div>
+                    <div class="CSP-FeedbackText" style="display: none;">
+                        <p style="text-align: justify;">El Devanado Primario debe tener un mayor número de espiras. Según la "relación de transformación", el voltaje es directamente proporcional al número de vueltas (V_p / V_s = N_p / N_s). Por lo tanto, para reducir 220V a 12V, el primario requiere aproximadamente 18.3 veces más vueltas que el secundario para mantener la proporción física del campo inducido.</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/rele.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/circuitos-integrados.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense"> <p> <span class="license-label">Licencia: </span><span class="license">None</span></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
